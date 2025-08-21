@@ -17,9 +17,23 @@ function App() {
 
   return (
     <>
-      <h1>Chai - Find Your Cup Of Tea</h1>
+      <h1>Chai.com</h1>
+      <div>
+      <h2>find your cup of tea</h2>
+      <img src="/cup.png" className="cup" alt="cup logo" />
+      </div>
       <GayButton />
-      <img src="/cupoftea.png" className="logo" alt="couple logo" />
+      <div>
+      <img src="/couple.png" className="logo" alt="couple logo" />
+      <div className="signup">
+      <h3>Sign Up</h3>
+      <h4>Name</h4>
+      <h4>Phone Number</h4>
+      <h4>Email</h4>
+      </div>
+      </div>
+      
+
     </>
   )
 }
