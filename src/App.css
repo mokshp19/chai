@@ -15,7 +15,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  margin-right: 80em;
+  margin-right: 60em;
   margin-top: -15em;
 }
 .cup {
@@ -34,6 +34,21 @@
   height: 50%;
   margin-top: -40em;
   text-align: left;
+  margin-left: 20em;
+}
+.register {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #5B4040;
+  color: white;
+  margin-left:40em;
+  margin-top:2em;
+  width: 10em;
+  
 }
 
 div {
@@ -64,7 +79,13 @@ h2 {
 h3 {
   color: #5B4040;
   margin-top: -5em;
+  margin-bottom: 0em;
   font-family: "Italianno-Regular", cursive;
+}
+h4 {
+  color: #5B4040;
+  margin-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @font-face {
   
