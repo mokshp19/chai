@@ -2,12 +2,26 @@ import { useState } from 'react'
 
 import './App.css'
 
-  function GayButton(){
-     return (
-    <button>
-      I'm a gay
-    </button>
-  );
+let isLoggedIn = true;
+
+  function LoginButton(){
+    if (isLoggedIn){
+      return (
+        <button className = "login">
+
+          Logout
+        </button>
+      );
+    }
+    else{
+      return (
+        <button className = "login">
+
+          Login
+        </button>
+      );
+
+    }
 }
 
 
@@ -17,6 +31,7 @@ function App() {
 
   return (
     <>
+      <LoginButton/>
       <h1>Chai.com</h1>
       <div>
       <h2>find your cup of tea</h2>
@@ -28,10 +43,10 @@ function App() {
       <h3>Sign Up</h3>
       <h4>Name</h4>
       <input type="text" placeholder="Name" />
-      <h4>Phone Number</h4>
-      <input type="text" placeholder="Phone Number" />
       <h4>Email</h4>
       <input type="text" placeholder="Email" />
+      <h4>Password</h4>
+      <input type="text" placeholder="Password" />
       <button className = "register">Sign Up</button>
       </div>
      
